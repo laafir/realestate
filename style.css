@@ -1,0 +1,70 @@
+body{
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;  
+}
+.head{
+    background-color: white;
+    height: 200px;
+    margin: 0%;
+    border: 10px solid #f0eafb;
+    position: relative;
+}
+.head > img{
+    height: 200px;
+    position: absolute;
+    left: 300px;
+}
+
+.head>p{
+    margin: 0px;
+    font-size:50px;
+    position: absolute;
+    left: 2000px;
+    top: 80px;
+}
+#about{
+    margin: 0px;
+    font-size:50px;
+    position: absolute;
+    left: 2200px;
+    top: 80px;
+}
+#contact{
+    margin: 0px;
+    font-size:50px;
+    position: absolute;
+    left: 2460px;
+    top: 80px;
+}
+.body{
+    position: relative;
+    top: 250px;
+    left: 1590px;
+}
+#title{
+    font-size: 100px;
+    position: absolute;
+    top: 450px;
+    float: left;
+    left: 200px;
+}
+button{
+    border: none;
+    background-color: yellowgreen;
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    left: 400px;
+    bottom: 400px;
+    font-size: 220%;
+    border-radius: 200px;
+}
+.button:hover{
+   color: grey;
+}
+.sign:hover{
+    color: lightgoldenrodyellow;
+    background-color: rgb(0, 145, 113);
+}
